@@ -54,6 +54,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %doc AUTHORS NEWS README *.htm ChangeLog
 %{_bindir}/*
-%{_mandir}/man1/yabasic.1.bz2
+%{_mandir}/man1/yabasic.*
 
 
