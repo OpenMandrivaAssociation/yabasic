@@ -1,6 +1,6 @@
 %define name yabasic
 %define version 2.763
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary:	Small basic interpreter with printing and graphics
 Name:		%{name}
@@ -55,5 +55,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS NEWS README *.htm ChangeLog
 %{_bindir}/*
 %{_mandir}/man1/yabasic.*
-
-
