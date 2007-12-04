@@ -15,7 +15,7 @@ BuildRequires:	flex
 BuildRequires:	automake
 BuildRequires:	autoconf >= 2.13
 BuildRequires:	libtool
-BuildRequires:	XFree86-devel
+BuildRequires:	X11-devel
 BuildRequires:	ncurses-devel
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
