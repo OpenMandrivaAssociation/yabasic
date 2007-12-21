@@ -17,6 +17,7 @@ BuildRequires:	autoconf >= 2.13
 BuildRequires:	libtool
 BuildRequires:	X11-devel
 BuildRequires:	ncurses-devel
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Yabasic implements the most common and simple elements of the basic
