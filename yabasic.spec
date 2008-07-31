@@ -1,6 +1,6 @@
 %define name yabasic
 %define version 2.763
-%define release %mkrel 3
+%define release %mkrel 5
 
 Summary:	Small basic interpreter with printing and graphics
 Name:		%{name}
