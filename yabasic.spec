@@ -10,12 +10,8 @@ License:	Artistic
 Group:		Development/Other
 Source0:	http://www.yabasic.de/download/%{name}-%{version}.tar.bz2
 URL:		http://www.yabasic.de/
-BuildRequires:	bison
-BuildRequires:	flex
-BuildRequires:	automake
-BuildRequires:	autoconf >= 2.13
-BuildRequires:	libtool
-BuildRequires:	X11-devel
+BuildRequires:	libx11-devel
+BuildRequires:	libxt-devel
 BuildRequires:	ncurses-devel
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
@@ -27,16 +23,11 @@ no extra effort. Yabasic runs under Unix and Windows; it is small
 (less than 200KB) and free.
 
 %prep
-%setup  -q
+%setup -q
 
 %build
-# rm -f missing
-libtoolize --copy --force
-aclocal
-autoheader
-autoconf
-automake -a -c -i
-%configure
+autoreconf -fi
+%configure2_5x
 %make
 
 %check
@@ -45,7 +36,7 @@ make check-TESTS
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%makeinstall
+%makeinstall_std
 
 %clean
 rm -rf $RPM_BUILD_ROOT
