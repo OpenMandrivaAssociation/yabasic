@@ -46,3 +46,55 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS NEWS README *.htm ChangeLog
 %{_bindir}/*
 %{_mandir}/man1/yabasic.*
+
+
+%changelog
+* Fri Jan 21 2011 Funda Wang <fwang@mandriva.org> 2.763-7mdv2011.0
++ Revision: 632006
+- simplify BR
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Mon Aug 04 2008 Thierry Vignaud <tv@mandriva.org> 2.763-6mdv2009.0
++ Revision: 262760
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 2.763-5mdv2009.0
++ Revision: 257854
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 2.763-3mdv2008.1
++ Revision: 136631
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - buildrequires X11-devel instead of XFree86-devel
+
+* Wed Aug 22 2007 Olivier Thauvin <nanardon@mandriva.org> 2.763-3mdv2008.0
++ Revision: 68894
+- rebuild
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - fix man pages extension
+
+
+* Thu Aug 10 2006 Olivier Thauvin <nanardon@mandriva.org>
++ 08/10/06 10:31:51 (55329)
+- rebuild
+
+* Thu Aug 10 2006 Olivier Thauvin <nanardon@mandriva.org>
++ 08/10/06 10:30:17 (55328)
+Import yabasic
+
+* Mon Oct 17 2005 Olivier Thauvin <nanardon@mandriva.org> 2.763-1mdk
+- 2.763
+
+* Sun May 01 2005 Olivier Thauvin <nanardon@mandriva.org> 2.751-1mdk
+- 2.751
+- add %%check section
+
+* Fri May 14 2004 Olivier Thauvin <thauvin@aerov.jussieu.fr> 2.744-1mdk
+- 2.744
+
