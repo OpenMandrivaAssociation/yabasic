@@ -1,6 +1,6 @@
 %define name yabasic
 %define version 2.763
-%define release %mkrel 7
+%define release  8
 
 Summary:	Small basic interpreter with printing and graphics
 Name:		%{name}
@@ -13,7 +13,6 @@ URL:		http://www.yabasic.de/
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xt)
 BuildRequires:	ncurses-devel
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Yabasic implements the most common and simple elements of the basic
