@@ -10,8 +10,8 @@ License:	Artistic
 Group:		Development/Other
 Source0:	http://www.yabasic.de/download/%{name}-%{version}.tar.bz2
 URL:		http://www.yabasic.de/
-BuildRequires:	libx11-devel
-BuildRequires:	libxt-devel
+BuildRequires:	pkgconfig(x11)
+BuildRequires:	pkgconfig(xt)
 BuildRequires:	ncurses-devel
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
