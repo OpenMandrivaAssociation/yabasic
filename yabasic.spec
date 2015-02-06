@@ -1,6 +1,6 @@
 %define name yabasic
 %define version 2.763
-%define release  8
+%define release  9
 
 Summary:	Small basic interpreter with printing and graphics
 Name:		%{name}
