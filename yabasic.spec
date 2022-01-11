@@ -1,6 +1,6 @@
 Summary:	Small basic interpreter with printing and graphics
 Name:		yabasic
-Version:	2.89.0
+Version:	2.90.2
 Release:	1
 License:	Artistic
 Group:		Development/Other
