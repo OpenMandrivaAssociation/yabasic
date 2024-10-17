@@ -5,7 +5,7 @@ Release:	1
 License:	Artistic
 Group:		Development/Other
 Source0:	http://www.yabasic.de/download/%{name}-%{version}.tar.gz
-URL:		http://www.yabasic.de/
+URL:		https://www.yabasic.de/
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xt)
 BuildRequires:	ncurses-devel
